@@ -1,0 +1,165 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    background-color:#BE3144;
+}
+ul {
+  display: flex;
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 10px;
+    overflow: hidden;
+    
+  }
+  li a {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color:brown;
+  }
+  .welcome-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+     height: 90vh; 
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .welcome-section p{
+    color: red;
+  }
+  #hr{
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .projects{
+    padding: 75px 0px 75px 0px;
+    background-color:#45567D;
+  }
+  .project h2{
+    text-align: center;
+  }
+  .project h3{
+    color: white;
+    background-color: #303841;
+    text-align: center;
+    padding: 20px;
+  }
+  .project-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .project img{
+    width:430px;
+    height: 430px;
+  }
+  .project{
+    padding: 30px;
+  }
+  .hide{
+    display: none;
+  }
+  .project :hover .hide{
+display: inline;
+color: orange;
+  }
+  .btn-show-all {
+    font-size: 3rem;
+    background: #303841;
+    transition: #303841 0.3s ease-out;
+}
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    font-weight: 700;
+    transition: 1s;
+    font-size: 20px;
+    line-height: 1;
+    transform: translateY(-18px);
+}
+.btn-show-all:hover{
+  background-color: #be3144;
+}
+.button{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background-color:#45567D;
+  padding: 15px;
+}
+ .main-section{
+  text-align: center;
+  padding-top: 100px;
+ color: white;
+ }
+ .head3{
+  font-size:50px;
+ }
+ .main{
+  background:#303842;
+  height: 100vh;
+
+ } 
+ .contact-links{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+ }
+ a{
+  color: white;
+  font-size: 20px;
+  padding: 0px 10px;
+  text-decoration: none;
+
+ }
+ a.btn:hover {
+  color: rgb(255, 102, 0);
+  transform: none;
+ }
+ .footers{
+  background-color: #303842;
+  border-top: 4px solid rgba(212, 61, 87, 0.767);
+   height: 15vh ;
+ }
+ footer{
+  display: flex  ;
+  justify-content: space-evenly;
+  margin-top: 50px;
+ }
+ .pp{
+  font-size: 20px;
+  color: white;
+ }
+ .card img{
+  height: 20rem;
+  width: 20rem;
+ }
+
+  
+  
